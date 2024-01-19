@@ -12,7 +12,7 @@ repository = "https://github.com/dtolnay/inventory"
 rust-version = "1.62"
 
 [dependencies]
-ctor = "0.1"
+ctor = { git="https://github.com/asterinas/rust-ctor" }
 ghost = "0.1.4"
 
 [dev-dependencies]
